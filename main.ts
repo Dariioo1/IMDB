@@ -2,6 +2,8 @@ import { Professional } from './professional';
 import { Movie } from './movie';
 import {Imdb} from './imdb';
 
+
+
 //TEST
 
 let movie1: Movie = 
@@ -297,3 +299,19 @@ let cine2:Imdb = new Imdb (
     );
 
 console.log(cine2.printImdb());
+
+//Probamos el método imdbTojson
+let archivo:string = cine2.imdbTojson();
+
+console.log("\n-------------------------------------\n");
+
+console.log("Filmoteca en formato texto JSON:\n");
+
+console.log(archivo);
+
+
+// Probamos guardarjson
+console.log("\n-------------------------------------\n");
+cine2.guardarJson();
+
+

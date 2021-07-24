@@ -1,0 +1,560 @@
+{
+	"movies": [
+		{
+			"title": "Peter Rabbit",
+			"releaseYear": 2018,
+			"nationality": "EEUU",
+			"genre": "Infantil",
+			"actors": [
+				{
+					"name": "Rose Bryne",
+					"age": 41,
+					"genre": "Mujer",
+					"weight": 53,
+					"height": 168,
+					"hairColor": "Castaño Oscuro",
+					"eyeColor": "Marron Cafe",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Australiana",
+					"oscarsNumber": 0,
+					"profession": [
+						"Actor"
+					],
+					"bio": " https://en.wikipedia.org/wiki/Rose_Byrne"
+				},
+				{
+					"name": "Sylvester Stallone",
+					"age": 75,
+					"genre": "Hombre",
+					"weight": 102,
+					"height": 177,
+					"hairColor": "Marron Oscuro",
+					"eyeColor": "Cafe",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 3,
+					"profession": [
+						"Actor ",
+						"Productor ",
+						"Guinonista ",
+						" Director"
+					],
+					"bio": " https://en.wikipedia.org/wiki/Sylvester_Stallone"
+				}
+			],
+			"director": [
+				{
+					"name": "Will Gluck",
+					"age": 41,
+					"genre": "hombre",
+					"weight": 91,
+					"height": 185,
+					"hairColor": "Rubio",
+					"eyeColor": "verdes",
+					"race": "blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 0,
+					"profession": [
+						"Director",
+						"Guionista"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Will_Gluck"
+				}
+			],
+			"writer": [
+				{
+					"name": "Rober Lieber",
+					"age": 45,
+					"genre": "Hombre",
+					"weight": 90,
+					"height": 170,
+					"hairColor": "Negro",
+					"eyeColor": "Negro",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 0,
+					"profession": [
+						"Ecritor",
+						"Productor"
+					],
+					"bio": "https://www.imdb.com/name/nm1464577/"
+				}
+			],
+			"language": "English",
+			"platform": "N/ID",
+			"isMCU": false,
+			"mainCharacterName": "Peter",
+			"distributor": "Sony Picture Releasing",
+			"producer": [
+				{
+					"name": "Will Gluck",
+					"age": 41,
+					"genre": "hombre",
+					"weight": 91,
+					"height": 185,
+					"hairColor": "Rubio",
+					"eyeColor": "verdes",
+					"race": "blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 0,
+					"profession": [
+						"Director",
+						"Guionista"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Will_Gluck"
+				}
+			]
+		},
+		{
+			"title": "Rocky",
+			"releaseYear": 2012,
+			"nationality": "EEUU",
+			"genre": "Accion",
+			"actors": [
+				{
+					"name": "Sylvester Stallone",
+					"age": 75,
+					"genre": "Hombre",
+					"weight": 102,
+					"height": 177,
+					"hairColor": "Marron Oscuro",
+					"eyeColor": "Cafe",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 3,
+					"profession": [
+						"Actor ",
+						"Productor ",
+						"Guinonista ",
+						" Director"
+					],
+					"bio": " https://en.wikipedia.org/wiki/Sylvester_Stallone"
+				}
+			],
+			"director": [
+				{
+					"name": "John G.Advilse",
+					"age": 81,
+					"genre": "Hombre",
+					"weight": 70,
+					"height": 165,
+					"hairColor": "Gris",
+					"eyeColor": "Negro",
+					"race": "Blanca",
+					"isRetired": true,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 1,
+					"profession": [
+						"Director"
+					],
+					"bio": "https://es.wikipedia.org/wiki/John_G._Avildsen"
+				}
+			],
+			"writer": [
+				{
+					"name": "Sylvester Stallone",
+					"age": 75,
+					"genre": "Hombre",
+					"weight": 102,
+					"height": 177,
+					"hairColor": "Marron Oscuro",
+					"eyeColor": "Cafe",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 3,
+					"profession": [
+						"Actor ",
+						"Productor ",
+						"Guinonista ",
+						" Director"
+					],
+					"bio": " https://en.wikipedia.org/wiki/Sylvester_Stallone"
+				}
+			],
+			"language": "English",
+			"platform": "N/ID",
+			"isMCU": false,
+			"mainCharacterName": "Rocky",
+			"distributor": "United Artists",
+			"producer": [
+				{
+					"name": "Rober Chartof",
+					"age": 87,
+					"genre": "Hombre",
+					"weight": 80,
+					"height": 176,
+					"hairColor": "Negro",
+					"eyeColor": "Negro",
+					"race": " Blanca",
+					"isRetired": true,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 3,
+					"profession": [
+						"Productor"
+					],
+					"bio": "https://en.wikipedia.org/wiki/Robert_Chartoff"
+				}
+			]
+		},
+		{
+			"title": "Lo que el viento se llevo",
+			"releaseYear": 1939,
+			"nationality": "EEUU",
+			"genre": "Clasico",
+			"actors": [
+				{
+					"name": "Vivien Leigh",
+					"age": 53,
+					"genre": "Mujer",
+					"weight": 55,
+					"height": 160,
+					"hairColor": "Castaño",
+					"eyeColor": "Azules",
+					"race": "Blanca",
+					"isRetired": true,
+					"nationality": "Britanica",
+					"oscarsNumber": 2,
+					"profession": [
+						"Actriz"
+					],
+					"bio": " https://en.wikipedia.org/wiki/Vivien_Leigh"
+				}
+			],
+			"director": [
+				{
+					"name": "Victor Fleming",
+					"age": 72,
+					"genre": "Hombre",
+					"weight": 70,
+					"height": 185,
+					"hairColor": "Rubio",
+					"eyeColor": "Azules",
+					"race": "Blanca",
+					"isRetired": true,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 1,
+					"profession": [
+						"Director"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Victor_Fleming"
+				}
+			],
+			"writer": [
+				{
+					"name": "Ben Hecht",
+					"age": 127,
+					"genre": "Hombre",
+					"weight": 75,
+					"height": 170,
+					"hairColor": "Negro",
+					"eyeColor": "Marrones",
+					"race": "Blanca",
+					"isRetired": true,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 0,
+					"profession": [
+						"Escritor",
+						"Director"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Ben_Hecht"
+				}
+			],
+			"language": "English",
+			"platform": "N/ID",
+			"isMCU": false,
+			"mainCharacterName": "Scarlatta",
+			"distributor": "Loew's Inc",
+			"producer": [
+				{
+					"name": "David O. Selznick",
+					"age": 56,
+					"genre": "Hombre",
+					"weight": 85,
+					"height": 180,
+					"hairColor": "Negro",
+					"eyeColor": "Azules",
+					"race": "Blanca",
+					"isRetired": true,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 2,
+					"profession": [
+						"Productor"
+					],
+					"bio": "https://es.wikipedia.org/wiki/David_O._Selznick"
+				}
+			]
+		},
+		{
+			"title": "Gladiator",
+			"releaseYear": 2000,
+			"nationality": "EEUU",
+			"genre": "Accion",
+			"actors": [
+				{
+					"name": "Russell Crowe",
+					"age": 57,
+					"genre": "Hombre",
+					"weight": 92,
+					"height": 182,
+					"hairColor": "Marron Claro",
+					"eyeColor": "Azules",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Neozelandes",
+					"oscarsNumber": 1,
+					"profession": [
+						"Actor"
+					],
+					"bio": "https://en.wikipedia.org/wiki/Russell_Crowe"
+				}
+			],
+			"director": [
+				{
+					"name": "Ridley Scott",
+					"age": 84,
+					"genre": "Hombre",
+					"weight": 95,
+					"height": 185,
+					"hairColor": "Castaño",
+					"eyeColor": "Azules",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Britanico",
+					"oscarsNumber": 1,
+					"profession": [
+						"Director",
+						"Productor",
+						"Guionista"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Ridley_Scott"
+				}
+			],
+			"writer": [
+				{
+					"name": "William Nicholson",
+					"age": 73,
+					"genre": "Hombre",
+					"weight": 90,
+					"height": 175,
+					"hairColor": "Castaño",
+					"eyeColor": "Marrones",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Britanico",
+					"oscarsNumber": 0,
+					"profession": [
+						"Escritor"
+					],
+					"bio": "https://es.wikipedia.org/wiki/William_Nicholson_(escritor)"
+				}
+			],
+			"language": "English",
+			"platform": "N/ID",
+			"isMCU": false,
+			"mainCharacterName": "Maximo Decimo Meridio",
+			"distributor": "Dreamworks, Universal Pictures",
+			"producer": [
+				{
+					"name": "Douglas Wick",
+					"age": 67,
+					"genre": "Hombre",
+					"weight": 85,
+					"height": 195,
+					"hairColor": "Rubio",
+					"eyeColor": "Verdes",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 0,
+					"profession": [
+						"Productor"
+					],
+					"bio": "https://en.wikipedia.org/wiki/Douglas_Wick"
+				}
+			]
+		},
+		{
+			"title": "The Avengers: Age of Ultron",
+			"releaseYear": 2012,
+			"nationality": "EEUU",
+			"genre": "Comic",
+			"actors": [
+				{
+					"name": "Robert John Downey",
+					"age": 51,
+					"genre": "Hombre",
+					"weight": 78,
+					"height": 174,
+					"hairColor": "Marron Oscuro",
+					"eyeColor": "Marron Oscuro",
+					"race": "Blanco",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 2,
+					"profession": [
+						"Actor ",
+						" Compositor",
+						" Director"
+					],
+					"bio": " https://ast.wikipedia.org/wiki/Robert_Downey_Jr."
+				}
+			],
+			"director": [
+				{
+					"name": "Joss Whedon",
+					"age": 57,
+					"genre": "Hombre",
+					"weight": 80,
+					"height": 178,
+					"hairColor": "Red",
+					"eyeColor": "Gris",
+					"race": "Blanco",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 1,
+					"profession": [
+						"Director"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Joss_Whedon"
+				}
+			],
+			"writer": [
+				{
+					"name": "Stan Lee",
+					"age": 96,
+					"genre": "Hombre",
+					"weight": 70,
+					"height": 180,
+					"hairColor": "Gris",
+					"eyeColor": "Azules",
+					"race": "Blanco",
+					"isRetired": true,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 1,
+					"profession": [
+						"Escritor"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Stan_Lee"
+				}
+			],
+			"language": "English",
+			"platform": "N/ID",
+			"isMCU": true,
+			"mainCharacterName": "The Avengers",
+			"distributor": "Marvel studios",
+			"producer": [
+				{
+					"name": "Kevin Feige",
+					"age": 48,
+					"genre": "Hombre",
+					"weight": 80,
+					"height": 182,
+					"hairColor": "Marron Oscuro",
+					"eyeColor": "Marrones",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 1,
+					"profession": [
+						"Productor"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Kevin_Feige"
+				}
+			]
+		},
+		{
+			"title": "The silence of the Lambs",
+			"releaseYear": 1991,
+			"nationality": "EEUU",
+			"genre": "Thiller",
+			"actors": [
+				{
+					"name": "Anthony Hopkins",
+					"age": 83,
+					"genre": "Hombre",
+					"weight": 70,
+					"height": 174,
+					"hairColor": "Gris",
+					"eyeColor": "Azules",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 2,
+					"profession": [
+						"Actor"
+					],
+					"bio": "https://en.wikipedia.org/wiki/Anthony_Hopkins"
+				}
+			],
+			"director": [
+				{
+					"name": "Jonathan Demme",
+					"age": 77,
+					"genre": "Hombre",
+					"weight": 75,
+					"height": 177,
+					"hairColor": "Negro",
+					"eyeColor": "Marron",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 1,
+					"profession": [
+						"Director"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Jonathan_Demme"
+				}
+			],
+			"writer": [
+				{
+					"name": "Ted Tally",
+					"age": 69,
+					"genre": "Hombre",
+					"weight": 86,
+					"height": 174,
+					"hairColor": "Marron oscuros",
+					"eyeColor": "Negro",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 1,
+					"profession": [
+						"Escritor"
+					],
+					"bio": "https://en.wikipedia.org/wiki/Ted_Tally"
+				}
+			],
+			"language": "English",
+			"platform": "N/ID",
+			"isMCU": false,
+			"mainCharacterName": "Hannibal Lecter",
+			"distributor": "Orion Pictures",
+			"producer": [
+				{
+					"name": "Edward Saxon",
+					"age": 65,
+					"genre": "Hombre",
+					"weight": 64,
+					"height": 174,
+					"hairColor": "Negro",
+					"eyeColor": "Blue",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 1,
+					"profession": [
+						"Productor"
+					],
+					"bio": "https://en.wikipedia.org/wiki/Edward_Saxon"
+				}
+			]
+		}
+	]
+}
