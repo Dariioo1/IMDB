@@ -154,7 +154,7 @@ export class Professional
         this.race=race;
     }
 
-    public serIsRetired(isRetired:boolean)
+    public setIsRetired(isRetired:boolean)
     {
         this.isRetired=isRetired;
     }
