@@ -314,4 +314,11 @@ console.log(archivo);
 console.log("\n-------------------------------------\n");
 cine2.guardarJson();
 
+console.log("\n------LEER JSON-------------------------------\n");
+
+console.log("\n-Se han asignado Actores;-----------------------------\n");
+console.log((Imdb.leerJson()).movies[0].getActors());
+
+console.log("\n------------------------------------------\n");
+console.log((Imdb.leerJson()).printImdb());
 

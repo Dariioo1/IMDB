@@ -64,9 +64,100 @@ export class Imdb
                             contenido,'utf-8' );
     }
 
+    //leerJson-> devuelve un imdb
+    //Leer el fichero imdbBBDD.son y almacenarlo en un objeto imdb
+    public static leerJson():Imdb
+    {   
+        let filmoteca:Imdb = new Imdb([]);
 
+        let archivo = fs.readFileSync("./imdbBBDD.json",
+                                        'utf8');
 
+        
+        let mProfesional:Professional = new Professional("",0,"",0,0,"","","",false,"",0,[],"");
+        let gProfesional:Professional[] = [];
+        
+        let arJson:any = JSON.parse(archivo);
+
+        (arJson.movies).forEach(  
+                    function (element:any, index:number) 
+                    {
+                        let moviePeli:Movie = new Movie("",0,"","");
+                        //filmoteca.movies.push(Object.assign(moviePeli,element));
+                        moviePeli.setTitle(element.title);
+
+                        moviePeli.setReleaseYear(element.releaseYear);
+
+                        let actors:any[] = element.actors;
+                        moviePeli.setActors(Imdb.parseArrayProfesionales(actors));
+
+                        moviePeli.setNationality(element.nationality);
+
+                        let director:any[] = element.director;
+                        moviePeli.setDirector(
+                            Imdb.parseArrayProfesionales(director));
+                        
+                        let writer:any[] = element.writer;
+                        moviePeli.setWriter(
+                            Imdb.parseArrayProfesionales(writer));
+
+                        moviePeli.setLanguage(element.language);
+
+                        moviePeli.setPlataform(element.platform);
+
+                        moviePeli.setIsMCU(element.isMCU);
+
+                        moviePeli.setMainCharacterName(element.mainCharacterName);
+
+                        let producer:any[] = element.producer;
+                        moviePeli.setProducer(
+                            Imdb.parseArrayProfesionales(producer));
+
+                        moviePeli.setDistribuidor(element.distributor);
+                        moviePeli.setGenre(element.genre);
+
+                        filmoteca.movies.push(moviePeli);
+                    });
+
+        return filmoteca;
+    }
+
+    private static parseArrayProfesionales(prof:any[]):Professional[]
+    {
+        let grupoProf: Professional[] = [];
+
+        for(let it in prof)
+        {
+            let mProf:Professional = 
+            new Professional("",0,"",0,0,"","","",false,"",0,[],"");
+
+            mProf.setName(prof[it].name);
+            mProf.setAge(prof[it].age);
+            mProf.setGenre(prof[it].genre);
+            mProf.setWeight(prof[it].weight);
+            mProf.setHeight(prof[it].height);
+            mProf.setHairColor(prof[it].hairColor);
+            mProf.setEyeColor(prof[it].eyeColor);
+            mProf.setRace(prof[it].race);
+            mProf.setIsRetired(prof[it].isRetired);
+            mProf.setNationality(prof[it].nationality);
+            mProf.setOscarsNumber(prof[it].oscarsNumber);
+            mProf.setProfession(prof[it].profession);
+            mProf.setBio(prof[it].bio);
+
+            grupoProf.push(mProf);
+        }
+
+        return grupoProf;
+    }
 }
+
+
+
+
+
+
+
 
 
 
