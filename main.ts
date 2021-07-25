@@ -303,7 +303,7 @@ console.log(cine2.printImdb());
 //Probamos el método imdbTojson
 let archivo:string = cine2.imdbTojson();
 
-console.log("\n-------------------------------------\n");
+console.log("\nimdbToJson---------------------------------\n");
 
 console.log("Filmoteca en formato texto JSON:\n");
 
@@ -311,7 +311,7 @@ console.log(archivo);
 
 
 // Probamos guardarjson
-console.log("\n-------------------------------------\n");
+console.log("\nGuardar json-----------------------------\n");
 cine2.guardarJson();
 
 console.log("\n------LEER JSON-------------------------------\n");
@@ -319,6 +319,17 @@ console.log("\n------LEER JSON-------------------------------\n");
 console.log("\n-Se han asignado Actores;-----------------------------\n");
 console.log((Imdb.leerJson()).movies[0].getActors());
 
-console.log("\n------------------------------------------\n");
+console.log("\nComprobar leerjson----------------------------------------\n");
 console.log((Imdb.leerJson()).printImdb());
+
+console.log("\nComprobar escribirEnFicheroJSON----------------------------------------\n");
+
+let cine3:Imdb = new Imdb ([movie4,movie5]);
+cine3.escribirEnFicheroJSON("pelis4y5");
+
+console.log("\nComprobar obtenerInstanciaIMDB----------------------------------------\n");
+console.log((Imdb.obtenerInstanciaIMDB("pelis4y5")).printImdb());
+
+
+
 

@@ -122,6 +122,8 @@ export class Imdb
         return filmoteca;
     }
 
+    //parseArrayProfesionales-> Método privado para asignar los arrays de Professionals
+    //y poder asignarlos al atributo correspondiente de la movie parte de imdb
     private static parseArrayProfesionales(prof:any[]):Professional[]
     {
         let grupoProf: Professional[] = [];
@@ -149,6 +151,74 @@ export class Imdb
         }
 
         return grupoProf;
+    }
+
+    // escribirEnFicheroJSON -> parametro de entrada el nombre de un fichero
+    // y genera ese archivo en formato .json
+    public escribirEnFicheroJSON(nombreFichero:string):void 
+    {
+        let contenido = this.imdbTojson();
+
+        fs.writeFileSync( nombreFichero+ ".json",
+                            contenido,'utf-8' ); 
+    }
+
+    // obtenerInstanciaIMDB-> devuelve un objeto de la clase IMDB
+    // creado a partir de un fichero
+    public static obtenerInstanciaIMDB(nombreFichero:string):Imdb
+    {
+
+        let filmoteca:Imdb = new Imdb([]);
+
+        let archivo:string = fs.readFileSync(nombreFichero+".json",'utf8');
+
+        
+        let mProfesional:Professional = new Professional("",0,"",0,0,"","","",false,"",0,[],"");
+        let gProfesional:Professional[] = [];
+        
+        let arJson:any = JSON.parse(archivo);
+
+        (arJson.movies).forEach(  
+                    function (element:any, index:number) 
+                    {
+                        let moviePeli:Movie = new Movie("",0,"","");
+                        //filmoteca.movies.push(Object.assign(moviePeli,element));
+                        moviePeli.setTitle(element.title);
+
+                        moviePeli.setReleaseYear(element.releaseYear);
+
+                        let actors:any[] = element.actors;
+                        moviePeli.setActors(Imdb.parseArrayProfesionales(actors));
+
+                        moviePeli.setNationality(element.nationality);
+
+                        let director:any[] = element.director;
+                        moviePeli.setDirector(
+                            Imdb.parseArrayProfesionales(director));
+                        
+                        let writer:any[] = element.writer;
+                        moviePeli.setWriter(
+                            Imdb.parseArrayProfesionales(writer));
+
+                        moviePeli.setLanguage(element.language);
+
+                        moviePeli.setPlataform(element.platform);
+
+                        moviePeli.setIsMCU(element.isMCU);
+
+                        moviePeli.setMainCharacterName(element.mainCharacterName);
+
+                        let producer:any[] = element.producer;
+                        moviePeli.setProducer(
+                            Imdb.parseArrayProfesionales(producer));
+
+                        moviePeli.setDistribuidor(element.distributor);
+                        moviePeli.setGenre(element.genre);
+
+                        filmoteca.movies.push(moviePeli);
+                    });
+                    
+        return filmoteca;
     }
 }
 

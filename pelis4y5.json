@@ -1,0 +1,182 @@
+{
+	"movies": [
+		{
+			"title": "Gladiator",
+			"releaseYear": 2000,
+			"nationality": "EEUU",
+			"genre": "Accion",
+			"actors": [
+				{
+					"name": "Russell Crowe",
+					"age": 57,
+					"genre": "Hombre",
+					"weight": 92,
+					"height": 182,
+					"hairColor": "Marron Claro",
+					"eyeColor": "Azules",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Neozelandes",
+					"oscarsNumber": 1,
+					"profession": [
+						"Actor"
+					],
+					"bio": "https://en.wikipedia.org/wiki/Russell_Crowe"
+				}
+			],
+			"director": [
+				{
+					"name": "Ridley Scott",
+					"age": 84,
+					"genre": "Hombre",
+					"weight": 95,
+					"height": 185,
+					"hairColor": "Castaño",
+					"eyeColor": "Azules",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Britanico",
+					"oscarsNumber": 1,
+					"profession": [
+						"Director",
+						"Productor",
+						"Guionista"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Ridley_Scott"
+				}
+			],
+			"writer": [
+				{
+					"name": "William Nicholson",
+					"age": 73,
+					"genre": "Hombre",
+					"weight": 90,
+					"height": 175,
+					"hairColor": "Castaño",
+					"eyeColor": "Marrones",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Britanico",
+					"oscarsNumber": 0,
+					"profession": [
+						"Escritor"
+					],
+					"bio": "https://es.wikipedia.org/wiki/William_Nicholson_(escritor)"
+				}
+			],
+			"language": "English",
+			"platform": "N/ID",
+			"isMCU": false,
+			"mainCharacterName": "Maximo Decimo Meridio",
+			"distributor": "Dreamworks, Universal Pictures",
+			"producer": [
+				{
+					"name": "Douglas Wick",
+					"age": 67,
+					"genre": "Hombre",
+					"weight": 85,
+					"height": 195,
+					"hairColor": "Rubio",
+					"eyeColor": "Verdes",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 0,
+					"profession": [
+						"Productor"
+					],
+					"bio": "https://en.wikipedia.org/wiki/Douglas_Wick"
+				}
+			]
+		},
+		{
+			"title": "The Avengers: Age of Ultron",
+			"releaseYear": 2012,
+			"nationality": "EEUU",
+			"genre": "Comic",
+			"actors": [
+				{
+					"name": "Robert John Downey",
+					"age": 51,
+					"genre": "Hombre",
+					"weight": 78,
+					"height": 174,
+					"hairColor": "Marron Oscuro",
+					"eyeColor": "Marron Oscuro",
+					"race": "Blanco",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 2,
+					"profession": [
+						"Actor ",
+						" Compositor",
+						" Director"
+					],
+					"bio": " https://ast.wikipedia.org/wiki/Robert_Downey_Jr."
+				}
+			],
+			"director": [
+				{
+					"name": "Joss Whedon",
+					"age": 57,
+					"genre": "Hombre",
+					"weight": 80,
+					"height": 178,
+					"hairColor": "Red",
+					"eyeColor": "Gris",
+					"race": "Blanco",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 1,
+					"profession": [
+						"Director"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Joss_Whedon"
+				}
+			],
+			"writer": [
+				{
+					"name": "Stan Lee",
+					"age": 96,
+					"genre": "Hombre",
+					"weight": 70,
+					"height": 180,
+					"hairColor": "Gris",
+					"eyeColor": "Azules",
+					"race": "Blanco",
+					"isRetired": true,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 1,
+					"profession": [
+						"Escritor"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Stan_Lee"
+				}
+			],
+			"language": "English",
+			"platform": "N/ID",
+			"isMCU": true,
+			"mainCharacterName": "The Avengers",
+			"distributor": "Marvel studios",
+			"producer": [
+				{
+					"name": "Kevin Feige",
+					"age": 48,
+					"genre": "Hombre",
+					"weight": 80,
+					"height": 182,
+					"hairColor": "Marron Oscuro",
+					"eyeColor": "Marrones",
+					"race": "Blanca",
+					"isRetired": false,
+					"nationality": "Estadounidense",
+					"oscarsNumber": 1,
+					"profession": [
+						"Productor"
+					],
+					"bio": "https://es.wikipedia.org/wiki/Kevin_Feige"
+				}
+			]
+		}
+	]
+}
